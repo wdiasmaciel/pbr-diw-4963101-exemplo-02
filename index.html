@@ -49,12 +49,31 @@
         }
 
         .menu-lateral {
-            border: 3px solid green;
+            /*border: 3px solid green;*/
             width: 15rem;
+            height: 30rem;
         }
 
         .parte-principal {
             border: 3px dashed blue;
+            flex-grow: 1;
+        }
+
+        .tile {
+            background-color: #c7c5c5;
+            color: blue;
+            padding: 1rem;
+            margin-bottom: .5rem;
+            border-radius: .3rem;
+        }
+
+        .tile:hover {
+            background-color: blue;
+            color: white;
+        }
+
+        a{
+            text-decoration: none;
         }
     </style>
 </head>
@@ -66,7 +85,23 @@
         <div class="item menu-sandwich">Menu</div>
     </div>
     <div class="container">
-        <nav class="menu-lateral">Menu lateral</nav>
+        <nav class="menu-lateral">
+            <a href="https://www.pucminas.br">
+                <div class="tile">PUC Minas</div>
+            </a>
+
+            <a href="https://www.primevideo.com/">
+                <div class="tile">Prime Video</div>
+            </a>
+
+            <a href="https://www.google.com/">
+                <div class="tile">Google</div>
+            </a>
+
+            <a href="https://www.mcdonalds.com.br/">
+                <div class="tile">McDonalds</div>
+            </a>
+        </nav>
         <main class="parte-principal">Parte principal</main>
     </div>
 </body>
