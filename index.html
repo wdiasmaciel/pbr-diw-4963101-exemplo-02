@@ -52,10 +52,13 @@
             /*border: 3px solid green;*/
             width: 15rem;
             height: 30rem;
+            padding-top: 1rem;
         }
 
         .parte-principal {
-            border: 3px dashed blue;
+            /*border: 3px dashed blue;*/
+            display: flex;
+            flex-wrap: wrap;
             flex-grow: 1;
         }
 
@@ -72,8 +75,30 @@
             color: white;
         }
 
-        a{
+        a {
             text-decoration: none;
+        }
+
+        img {
+            width: 15rem;
+        }
+
+        .cartao {
+            width: 15rem;
+            border: 1px solid #c7c5c5;
+            height: 22rem;
+            box-shadow: .5rem .5rem .3rem .01rem #c7c5c5;
+            margin: 1rem;
+        }
+
+        .descricao {
+            padding: 1rem;
+        }
+
+        .preco {
+            padding: 1rem;
+            font-weight: bolder;
+            text-align: right;
         }
     </style>
 </head>
@@ -102,7 +127,73 @@
                 <div class="tile">McDonalds</div>
             </a>
         </nav>
-        <main class="parte-principal">Parte principal</main>
+        <main class="parte-principal">
+
+            <div class="cartao">
+                <div class="imagem">
+                    <img src="sandwich.png" alt="Sandwich do McDonald's">
+                </div>
+                <div class="descricao">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid rem explicabo blanditiis
+                    in cum facilis quod id quibusdam.
+                </div>
+                <div class="preco">
+                    R$ 45,99
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="imagem">
+                    <img src="sandwich.png" alt="Sandwich do McDonald's">
+                </div>
+                <div class="descricao">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid rem explicabo blanditiis
+                    in cum facilis quod id quibusdam.
+                </div>
+                <div class="preco">
+                    R$ 45,99
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="imagem">
+                    <img src="sandwich.png" alt="Sandwich do McDonald's">
+                </div>
+                <div class="descricao">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid rem explicabo blanditiis
+                    in cum facilis quod id quibusdam.
+                </div>
+                <div class="preco">
+                    R$ 45,99
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="imagem">
+                    <img src="sandwich.png" alt="Sandwich do McDonald's">
+                </div>
+                <div class="descricao">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid rem explicabo blanditiis
+                    in cum facilis quod id quibusdam.
+                </div>
+                <div class="preco">
+                    R$ 45,99
+                </div>
+            </div>
+
+            <div class="cartao">
+                <div class="imagem">
+                    <img src="sandwich.png" alt="Sandwich do McDonald's">
+                </div>
+                <div class="descricao">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid rem explicabo blanditiis
+                    in cum facilis quod id quibusdam.
+                </div>
+                <div class="preco">
+                    R$ 45,99
+                </div>
+            </div>
+        </main>
     </div>
 </body>
 
