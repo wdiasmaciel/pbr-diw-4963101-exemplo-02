@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
             align-content: start;
         }
 
-        .item{
+        .item {
             background-color: red;
             color: white;
             font-weight: bold;
@@ -29,6 +30,10 @@
             width: 5rem;
             height: 3rem;
             border-radius: .5rem;
+        }
+
+        .container {
+            display: flex;
         }
 
         .logo {
@@ -42,13 +47,28 @@
         .menu-sandwich {
             flex-grow: 1;
         }
+
+        .menu-lateral {
+            border: 3px solid green;
+            width: 15rem;
+        }
+
+        .parte-principal {
+            border: 3px dashed blue;
+        }
     </style>
 </head>
+
 <body>
     <div class="cabecalho">
         <div class="item logo">Logo</div>
         <div class="item titulo">Título</div>
         <div class="item menu-sandwich">Menu</div>
     </div>
+    <div class="container">
+        <nav class="menu-lateral">Menu lateral</nav>
+        <main class="parte-principal">Parte principal</main>
+    </div>
 </body>
+
 </html>
